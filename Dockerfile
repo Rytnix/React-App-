@@ -10,3 +10,5 @@ ENV API_URL = http://api.myapp.com/
 EXPOSE 3000
 # Exec Form of Command 
 CMD ["npm", "start"] 
+# We use entrypoint only if we know that the command will not be overwrited
+
